@@ -1,0 +1,31 @@
+h1
+{
+	/*mise en page titre principal*/
+	text-align: center; 
+	border: black solid;
+
+}
+
+h2
+{
+	/*mise en page sous-titres*/
+	margin-left: 80px;
+	color: red;
+
+}
+
+ul
+{
+	/*mise en page des listes*/
+	margin-top: 5%;
+	font-family: Arial;
+
+}
+
+div
+{
+	/*mise en page des listes*/
+	margin-top: 5%;
+	display: inline-table;
+	width: 300px;
+}

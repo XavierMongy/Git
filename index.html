@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Cheat sheet for Git</title>
+	<meta name="viewport" content="width=device-width" />
+
+</head>
+<body>
+
+	<p>
+  			<img src="http://geeksterminal.com/wp-content/uploads/2014/10/git-logo.png" alt="logo git" /> 
+  	</p>
+
+  	<h1>Cheat Sheet Git</h1> 
+
+  	<div>	
+  		<h2>Créer</h2> <!--première lsite-->
+  			<ul> 
+  			
+				<li>Créer un nouveau dépôt en local<br />git init</li><br />
+				<li>Clôner un dépôt éxistant<br />git clone ssh</li>
+		
+			</ul>
+	</div>	
+
+	<div>	
+		<h2>Supprimer</h2>  <!--deuxième liste-->
+			<ul>
+
+				<li>Supprimer tous les changements dans le dossier de travail<br />git reset --hard HEAD</li><br />
+				<li>Supprimer les changements dans un fichier spécifique<br />git checkout HEAD "nomdufichier"</li><br />
+				<li>Faire revenir un commit<br />git revert "commit"</li>
+	
+			</ul>
+	</div>	
+
+	<div>
+		<h2>Mise à jour et publication</h2> <!--troisième liste-->
+
+			<ul> 
+
+				<li>Montrer les informations à propos du remote<br />git remote show "remote"</li><br />
+				<li>Lister tous les remotes configurés<br />git remote -v</li><br />
+				<li>Ajouter un nouveau remote<br />git remote add "shortname" "url"</li><br />
+				<li>Télécharger les changements<br />git pull "remote" "branch"</li><br />
+				<li>Publier les chamgements en local sur un remote<br />git push "remote" "branch"</li>
+				
+			</ul>
+	</div>
+
+	<div>
+		<h2>Historique des commit</h2> <!--quatrième liste-->
+			<ul> 
+
+				<li>Montrer tous les commit<br />git log</li><br />
+				<li>Montrer les changements pour un fichier spécifique<br />git log -p "fichier"</li><br />
+				<li>Qui a changé le fichier<br />git blame "fichier"</li>
+			
+			</ul>
+	</div>
+
+	<div>
+
+		<h2>Afficher les modifications</h2> <!--cinquième liste-->
+			<ul>
+
+				<li>Afficher les fichiers modifiés dans l'espace de travail<br />git status</li><br />
+				<li>Rendre les fichiers suivis<br />git diff</li><br />
+				<li>Ajouter des changements au prochain commit<br />git add</li><br />
+				<li>Faire un commit des changements<br />git commit "message"</li>
+			
+			</ul>
+	</div>	
+
+</body>
+
+</html>
