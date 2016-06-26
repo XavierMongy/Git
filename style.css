@@ -21,3 +21,11 @@ ul
 	font-family: Arial;
 
 }
+
+div
+{
+	/*mise en page des listes*/
+	margin-top: 5%;
+	display: inline-table;
+	width: 300px;
+}
