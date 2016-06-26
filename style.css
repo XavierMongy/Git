@@ -13,3 +13,11 @@ h2
 	color: red;
 
 }
+
+ul
+{
+	/*mise en page des listes*/
+	margin-top: 5%;
+	font-family: Arial;
+
+}
