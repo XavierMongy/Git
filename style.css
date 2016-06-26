@@ -5,3 +5,11 @@ h1
 	border: black solid;
 
 }
+
+h2
+{
+	/*mise en page sous-titres*/
+	margin-left: 80px;
+	color: red;
+
+}
